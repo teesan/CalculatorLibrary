@@ -23,6 +23,4 @@ class TestCalculator:
         assert 23 == calculator.divide(69, 3)
     
     def test_circumference(self):
-        assert 25.13 == round(calculator.circumference(8), 2)
-
-
+        assert 25.14 == round(calculator.circumference(8), 2)
